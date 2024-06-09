@@ -26,18 +26,21 @@ body {
 }
 
 .btn {
-    padding: 20px 30px;
-    border-radius: 15px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+  padding: 20px 30px;
+  border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
 }
 
 .btn-primary {
-  --bs-btn-bg: #74512D;
-  --bs-btn-border-color: #74512D;
-  --bs-btn-hover-bg: #AF8F6F;
-  --bs-btn-hover-border-color: #AF8F6F;
-  --bs-btn-active-bg: #AF8F6F;
-  --bs-btn-active-border-color: #AF8F6F;
+  --bs-btn-bg: #74512d;
+  --bs-btn-border-color: #74512d;
+  --bs-btn-hover-bg: #af8f6f;
+  --bs-btn-hover-border-color: #af8f6f;
+  --bs-btn-active-bg: #af8f6f;
+  --bs-btn-active-border-color: #af8f6f;
+}
 
+.card {
+  font-family: "Montserrat", sans-serif;
 }

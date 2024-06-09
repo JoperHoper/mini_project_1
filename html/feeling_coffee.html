@@ -23,13 +23,26 @@
   <script src="../js/feeling_coffee.js"></script>
   <body>
     <ul class="nav nav-underline navbar sticky-top bg-body-tertiary">
+      <button onclick="toggleNav()" class="mobile-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="#543310"
+          class="bi bi-list"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+          />
+        </svg>
+      </button>
       <li class="nav-item">
         <a class="navbar-brand nav-link" href="homepage.html">Home</a>
       </li>
       <li class="nav-item">
-        <a
-          class="navbar-brand nav-link"
-          href="coffee_stats.html"
+        <a class="navbar-brand nav-link" href="coffee_stats.html"
           >Coffee Statistics</a
         >
       </li>
@@ -39,11 +52,32 @@
         >
       </li>
       <li class="nav-item">
-        <a class="navbar-brand nav-link active" aria-current="page" href="feeling_coffee.html"
+        <a
+          class="navbar-brand nav-link active"
+          aria-current="page"
+          href="feeling_coffee.html"
           >I'm Feeling Coffee</a
         >
       </li>
     </ul>
+    <div class="sticky-dropdown">
+      <ul id="mobile-dropdown" class="hidden">
+        <li class="mobile-item">
+          <a class="mobile-list" href="homepage.html">Home</a>
+        </li>
+        <li class="mobile-item">
+          <a class="mobile-list" href="coffee_stats.html">Coffee Statistic</a>
+        </li>
+        <li class="mobile-item">
+          <a class="mobile-list" href="know_coffee.html">Know Your Coffee</a>
+        </li>
+        <li class="mobile-item">
+          <a class="mobile-list" href="feeling_coffee.html"
+            >I'm Feeling Coffee</a
+          >
+        </li>
+      </ul>
+    </div>
     <div id="randomizer-container">
       <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
@@ -71,4 +105,5 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   ></script>
+  <script src="/js/nav_bar.js"></script>
 </html>
