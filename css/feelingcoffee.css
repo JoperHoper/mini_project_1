@@ -1,0 +1,43 @@
+body {
+  background: #ffefdb;
+  height: 100vh;
+}
+
+.img-fluid {
+  min-height: 270px;
+}
+
+#randomizer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  vertical-align: middle;
+  min-height: 75%;
+}
+
+.randomizer-btn {
+  margin: 10px;
+}
+
+.mb-3 {
+  margin-bottom: 2rem !important;
+}
+
+.btn {
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.btn-primary {
+  --bs-btn-bg: #74512D;
+  --bs-btn-border-color: #74512D;
+  --bs-btn-hover-bg: #AF8F6F;
+  --bs-btn-hover-border-color: #AF8F6F;
+  --bs-btn-active-bg: #AF8F6F;
+  --bs-btn-active-border-color: #AF8F6F;
+
+}

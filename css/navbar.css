@@ -1,0 +1,28 @@
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #543310;
+  padding: 10px;
+}
+
+.navbar-brand:hover {
+  color: #af8f6f;
+}
+
+.container-fluid {
+  justify-content: space-evenly;
+  margin: 8px;
+}
+
+.navbar {
+  background-color: #f8f4e1;
+}
+
+.nav-underline .nav-link.active, .nav-underline .show>.nav-link {
+  color: #af8f6f;;;
+}
+
+.nav-item {
+  margin: 8px 50px;
+}

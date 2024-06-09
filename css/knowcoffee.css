@@ -1,0 +1,73 @@
+body {
+  background: #ffefdb;
+}
+
+.card {
+  min-height: 850px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-ingredients {
+  font-size: 15px;
+}
+
+.card-img-top {
+  min-height: 420px;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+.filter-append {
+  top: 100px;
+  position: sticky;
+  z-index: 999;
+  height: 0;
+}
+
+.filter {
+  position: relative;
+  top: 20px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.btn-secondary {
+  --bs-btn-bg: #74512d;
+  --bs-btn-border-color: #74512d;
+  --bs-btn-color: #f8f4e1;
+  --bs-btn-hover-bg: #af8f6f;
+  --bs-btn-hover-border-color: #af8f6f;
+  --bs-btn-active-bg: #af8f6f;
+  --bs-btn-active-border-color: #af8f6f;
+}
+
+.dropdown-menu {
+  text-align: center;
+}
+
+.loading-screen {
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  height: 100vh;
+  position: relative;
+}
+
+.loading-container {
+  top: 0;
+  position: sticky;
+  z-index: 999;
+  height: 0;
+  opacity: 0;
+}
+
+.spinner-border {
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
